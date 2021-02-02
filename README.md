@@ -5,21 +5,26 @@ Objectives : finding all the trees on public land in a city
 
 categorizing kind of tree from street view data
 
+QGIS
+====
+
+**start by loading `marseille_tree_gis.qgz` using QGIS 3.6**
+
+![map of Marseille in QGIS with tree prediction](screenshot.png)
+
 Dataset
 =======
 
-the bulk of the dataset is visible using QGIS 3.6
-with `marseille_tree_gis.qgz`
+### Predictions
 
-
-* Predictions
-
-`dataset_marseille/deepforest_prediction_*`
+found in `dataset_marseille/deepforest_pred_*`
 
 polygons generated using deepforest and `deepforest_marseille/run_predictions_geotiff.py`
+also see:
+`deepforest_marseille/explore predictions.ipynb` using Jupyter notebook
 
 
-* Satellite Raster views *
+### Satellite Raster views
 
   *  IGN Geoportail (best quality - limited access)
      https://geoservices.ign.fr/blog/2017/06/28/geoportail_sans_compte.html
@@ -29,12 +34,11 @@ polygons generated using deepforest and `deepforest_marseille/run_predictions_ge
      https://docs.mapbox.com/help/tutorials/mapbox-arcgis-qgis/
      > WMTS url: https://api.mapbox.com/styles/v1/mattiou/ckkl0f8zq3bzd17mqktg9mwqq/wmts?access_token=pk.eyJ1IjoibWF0dGlvdSIsImEiOiJja2trZWN6M2ExN2VqMnVwZ3liaTN0N2tjIn0.comgaQnS2e6Y6a3L_yHFfw
 
-* Contours Quartiers *
+### Contours Quartiers
 `dataset_marseille/contours_quartiers_Marseille.shp`
 
 > Découpage administratif des 111 quartiers de Marseille (par agrégation d'IRIS).
-
-https://www.data.gouv.fr/fr/datasets/quartiers-de-marseille/#resource-b1e544a4-f065-494e-8012-843c6cc63cfc
+> https://www.data.gouv.fr/fr/datasets/quartiers-de-marseille/#resource-b1e544a4-f065-494e-8012-843c6cc63cfc
 
 
 deepforest predictions workflow
@@ -55,7 +59,8 @@ With QGIS 3.6 :
 
 6. Run deepforest prediction
 `python deepforest_marseille/run_predictions_geotiff.py input_geotiff_raster.tif predictions.shp`
-(and see more in the jupyter notebook)
+
+> XXX at the moment the .py is broken but see `deepforest_marseille/explore predictions.ipynb` using jupyter notebook for working code.
 
 7. `predictions.shp` can be added back with `Layer > Add Layer > Add Vector Layer`
 
