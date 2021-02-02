@@ -1,0 +1,4 @@
+panoID: PEMVMfgReaRew_JEsfG9jQ panoDate: 2019-08 longitude: -71.099664 latitude: 42.373572
+panoID: N0UDB9H2pkgSptkkhBU7iw panoDate: 2019-08 longitude: -71.099844 latitude: 42.373593
+panoID: N0UDB9H2pkgSptkkhBU7iw panoDate: 2019-09 longitude: -71.099844 latitude: 42.373593
+panoID: N0UDB9H2pkgSptkkhBU7iw panoDate: 2019-08 longitude: -71.099844 latitude: 42.373593
