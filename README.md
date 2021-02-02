@@ -23,11 +23,11 @@ polygons generated using deepforest and `deepforest_marseille/run_predictions_ge
 
   *  IGN Geoportail (best quality - limited access)
      https://geoservices.ign.fr/blog/2017/06/28/geoportail_sans_compte.html
-     WMTS url: https://wxs.ign.fr/pratique/geoportail/wmts?SERVICE=WMTS&REQUEST=GetCapabilities
+     > WMTS url: https://wxs.ign.fr/pratique/geoportail/wmts?SERVICE=WMTS&REQUEST=GetCapabilities
 
   *  Mapbox (ok quality)
      https://docs.mapbox.com/help/tutorials/mapbox-arcgis-qgis/
-     WMTS url: https://api.mapbox.com/styles/v1/mattiou/ckkl0f8zq3bzd17mqktg9mwqq/wmts?access_token=pk.eyJ1IjoibWF0dGlvdSIsImEiOiJja2trZWN6M2ExN2VqMnVwZ3liaTN0N2tjIn0.comgaQnS2e6Y6a3L_yHFfw
+     > WMTS url: https://api.mapbox.com/styles/v1/mattiou/ckkl0f8zq3bzd17mqktg9mwqq/wmts?access_token=pk.eyJ1IjoibWF0dGlvdSIsImEiOiJja2trZWN6M2ExN2VqMnVwZ3liaTN0N2tjIn0.comgaQnS2e6Y6a3L_yHFfw
 
 * Contours Quartiers *
 `dataset_marseille/contours_quartiers_Marseille.shp`
