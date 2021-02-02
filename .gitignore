@@ -1,11 +1,11 @@
 .ipynb_checkpoints
-./Treepedia_Public/venv/
+venv
 
-./dataset_marseille/clean_Marseille_all_streets.dbf
-./dataset_marseille/Marseille_all_streets.dbf
-./dataset_marseille/Marseille_sample-vieuxport_streets.dbf
-./dataset_marseille/satellite_raster_sample_centre_IGN_0.2m-resolution.tif
-./dataset_marseille/satellite_raster_sample_centre_IGN_0.5m-resolution.tif
-./dataset_marseille/satellite_raster_sample_centre_mapbox_0.1m-resolution.tif
-./dataset_marseille/satellite_raster_sample_centre_mapbox_0.2m-resolution.tif
-./dataset_marseille/satellite_raster_sample_laplaine_mapbox_0.1m-resolution.tif
+dataset_marseille/clean_Marseille_all_streets.dbf
+dataset_marseille/Marseille_all_streets.dbf
+dataset_marseille/Marseille_sample-vieuxport_streets.dbf
+dataset_marseille/satellite_raster_sample_centre_IGN_0.2m-resolution.tif
+dataset_marseille/satellite_raster_sample_centre_IGN_0.5m-resolution.tif
+dataset_marseille/satellite_raster_sample_centre_mapbox_0.1m-resolution.tif
+dataset_marseille/satellite_raster_sample_centre_mapbox_0.2m-resolution.tif
+dataset_marseille/satellite_raster_sample_laplaine_mapbox_0.1m-resolution.tif

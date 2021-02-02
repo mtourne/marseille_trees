@@ -42,14 +42,20 @@ deepforest predictions workflow
 
 With QGIS 3.6 :
 
+= Step1 : Do a geotiff raster export of map tiles =
+
 1. right click XY layer using * Satellite Raster Views * above
 2. save as : geotiff
 3. deselect "Create VRT"
 4. Extent : map canvas extent (just the window viewport for a sample)
 5. Raster file .tif is created! - and will be added to QGIS for visualization
 
+
+= Step2 : deepforest =
+
 6. Run deepforest prediction
 `python deepforest_marseille/run_predictions_geotiff.py input_geotiff_raster.tif predictions.shp`
+(and see more in the jupyter notebook)
 
 7. `predictions.shp` can be added back with `Layer > Add Layer > Add Vector Layer`
 
