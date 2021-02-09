@@ -9,3 +9,10 @@ dataset_marseille/satellite_raster_sample_centre_IGN_0.5m-resolution.tif
 dataset_marseille/satellite_raster_sample_centre_mapbox_0.1m-resolution.tif
 dataset_marseille/satellite_raster_sample_centre_mapbox_0.2m-resolution.tif
 dataset_marseille/satellite_raster_sample_laplaine_mapbox_0.1m-resolution.tif
+
+google_api_key.py
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
