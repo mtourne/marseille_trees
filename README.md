@@ -52,17 +52,18 @@ With QGIS 3.6 :
 2. save as : geotiff
 3. deselect "Create VRT"
 4. Extent : map canvas extent (just the window viewport for a sample)
-5. Raster file .tif is created! - and will be added to QGIS for visualization
+5. Resolution: 0.2 Horizontal and 0.2 Vertical, this means 0.2m per pixel. (this is the max that IGN supports).
+6. Raster file .tif is created! - and will be added to QGIS for visualization
 
 
 = Step2 : deepforest =
 
-6. Run deepforest prediction
+7. Run deepforest prediction
 `python deepforest_marseille/run_predictions_geotiff.py input_geotiff_raster.tif predictions.shp`
 
 > XXX at the moment the .py is broken but see `deepforest_marseille/explore predictions.ipynb` using jupyter notebook for working code.
 
-7. `predictions.shp` can be added back with `Layer > Add Layer > Add Vector Layer`
+8. `predictions.shp` can be added back with `Layer > Add Layer > Add Vector Layer`
 
 
 deepforest install guide
