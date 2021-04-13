@@ -67,5 +67,12 @@ With QGIS 3.6 :
 
 deepforest install guide
 ========================
-TODO using conda
-XXX  four band issue with vanilla `deepforest`
+
+the conda environment to be able to run deepforest is
+exported as `deepforest_conda_environment.yml`
+
+install it with
+
+```
+conda env create -f deepforest_conda_environment.yml
+```
