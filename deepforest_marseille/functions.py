@@ -14,6 +14,7 @@ import rasterio
 
 # deepforest algo
 from deepforest import deepforest
+from deepforest import predict
 
 import tensorflow as tf
 
